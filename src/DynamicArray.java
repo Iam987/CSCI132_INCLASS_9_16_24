@@ -38,5 +38,12 @@ public class DynamicArray {
 		}
 		return -1;
 	}
+	public String get(int index) {
+		if(index < data.length && index >= 0) {
+		return data[index];
+		}
+
+		return "Please input a valid index";
+	}
 }
 
